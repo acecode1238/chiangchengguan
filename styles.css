@@ -1,6 +1,5 @@
 html, body {
   width: 100%;
-  overflow-x: hidden;
 }
 
 .navbar.navbar-expand-lg {
@@ -97,8 +96,23 @@ section {
 
 @media (max-width: 768px) {
   .brand-logo {
-    width: 48px;
+    width: 60px;
   }
+
+@media (max-width: 768px) {
+  section {
+    padding-left: 0.9rem;
+  }
+  
+  .section1,
+  .sectionwork,
+  .work1,
+  .work2,
+  .emailbutton {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+  }
+}
 
 
 
