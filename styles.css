@@ -1,12 +1,10 @@
 html, body {
   width: 100%;
 }
-
-.navbar.navbar-expand-lg {
-    font-size: 1.9rem;
-    font-weight: 700;
+.navbar {
+  font-size: 1.9rem;
+  font-weight: 700;
 }
-
 .navbar-brand {
   display: flex;
   align-items: center;
@@ -114,13 +112,13 @@ section {
     height: 30px;
     object-fit: contain; /* keeps logo ratio */
   }  
-  .navbar.navbar-expand-lg {
+  .navbar {
     font-size: 1.4rem;
     font-weight: 700;
   }
   .navbar-brand {
-  font-size: 1.4rem;
-  font-weight: 700;
+    font-size: 1.4rem;
+    font-weight: 700;
   }
   .main {
     font-size: 1.1rem;
