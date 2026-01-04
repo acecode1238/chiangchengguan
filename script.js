@@ -1,13 +1,13 @@
 const text = document.querySelector('.typewriter')
 const content = text.textContent;
 
-text.innerHTML = '';
+text.textContent = '';
 
 let index = 0;
 
 function type() {
     if (index < content.length){
-        text.innerHTML += content[index];
+        text.textContent += content[index];
         index++
         setTimeout(type, 60);
     }
