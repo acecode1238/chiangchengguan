@@ -1,0 +1,97 @@
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.navbar.navbar-expand-lg {
+    font-size: 2.0rem;
+    font-weight: 700;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 1.9rem;
+  font-weight: 700;
+}
+
+.brand-logo {
+  width: 128px;
+  height: auto;
+  border-radius: 50%;
+}
+body {
+    min-height: 100vh;
+    background-image: url("https://www.pngmagic.com/webp_images/Off-white-background-image.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.main {
+    color: black;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    text-align: left;
+}
+.typewriter {
+    
+}
+.languages li {
+    font-size: 1.7rem;
+    display: inline;
+}
+
+.languages img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain; /* keeps logo ratio */
+}
+
+.section1 {
+    padding: 0rem 4rem 1rem 4rem;
+}
+
+.sectionwork {
+    padding: 2rem 4rem 0rem 4rem;
+    font-weight: bold;
+}
+.work1 {
+    padding: 0rem 4rem 0rem 4rem;
+}
+
+.work2 {
+    padding: 3rem 4rem 0rem 4rem;
+}
+
+section {
+    padding: 3rem 3rem 0rem 2rem;
+}
+.send:hover {
+    background-color: #6cdd6c;
+}
+.emailbutton {
+    padding: 3rem 4rem 2rem 4rem;
+}
+.skills {
+    font-weight: bold;
+}
+.images {
+  display: flex;
+  gap: 1rem;
+  padding: 0rem 1rem 2rem 1rem;
+
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.images img {
+  flex: 0 0 auto;
+  height: 260px;
+  width: auto;
+  border-radius: 12px;
+}
+
