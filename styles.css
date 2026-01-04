@@ -20,15 +20,17 @@ html, body {
   border-radius: 50%;
 }
 .bg-video {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  object-fit: cover;
-  z-index: -1;
-}
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
 
+    /* IMPORTANT */
+    pointer-events: none;
+  }
 .main {
     color: black;
     font-size: 1.5rem;
