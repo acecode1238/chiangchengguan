@@ -102,10 +102,19 @@ section {
 @media (max-width: 768px) {
   section {
     padding-left: 0.9rem;
-    font-size: 0.9rem;
   }
+  .languages li {
+    font-size: 1.0rem;
+    display: inline;
+  }
+
+  .languages img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain; /* keeps logo ratio */
+  }  
   .main {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
   .section1,
   .sectionwork,
