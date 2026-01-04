@@ -35,7 +35,6 @@ body {
   100% { background-position: 0% 0%, 100% 100%; }
 }
 
-
 .main {
     color: black;
     font-size: 1.5rem;
@@ -44,9 +43,7 @@ body {
     margin: 0;
     text-align: left;
 }
-.typewriter {
-    
-}
+
 .languages li {
     font-size: 1.7rem;
     display: inline;
