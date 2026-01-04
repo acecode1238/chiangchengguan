@@ -98,8 +98,9 @@ section {
 .send:hover {
     background-color: #6cdd6c;
 }
-.emailbutton {
-    padding: 3rem 4rem 2rem 4rem;
+.certificates {
+    padding: 3rem 4rem 0rem 4rem;
+    font-weight: bold;
 }
 .skills {
     font-weight: bold;
@@ -163,7 +164,7 @@ section {
   .sectionwork,
   .work1,
   .work2,
-  .emailbutton {
+  .certificates {
     padding-left: 2.8rem;
     padding-right: 2.8rem;
   }
