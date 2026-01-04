@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const video = document.querySelector('.bg-video');
     if (video) video.play().catch(() => {});
   }
-
+  
   window.addEventListener('scroll', startVideo, { once: true });
   window.addEventListener('touchstart', startVideo, { once: true });
 });
