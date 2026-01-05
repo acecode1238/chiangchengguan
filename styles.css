@@ -102,6 +102,9 @@ body {
 .section1 {
     padding: 0rem 4rem 0rem 4rem;
 }
+.section2 {
+  padding: 0rem 4rem 3rem 4rem;
+}
 
 .sectionwork {
     padding: 1rem 4rem 0rem 4rem;
@@ -220,8 +223,13 @@ section {
   display: flex;
   justify-content: center;
   width: 100%;  /* 🔥 centers horizontally */
-  padding: 0rem 0rem 2rem 0rem;
+  padding: 0rem 0rem 1.5rem 0rem;
 }
+  .section2 {
+    padding-left: 2.8rem;
+    padding-right: 2.8rem;
+    padding-bottom: 2rem;
+  }
   .section1,
   .sectionwork,
   .work1,
