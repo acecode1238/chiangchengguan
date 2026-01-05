@@ -34,7 +34,50 @@ body {
   50%  { background-position: 100% 0%, 0% 100%; }
   100% { background-position: 0% 0%, 100% 100%; }
 }
+#toggle {
+  border: none;
+  outline: none;
+  background: none;
+            /* 🔥 change from 4rem → 4px */
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 
+  width: auto;
+  height: auto;
+  padding-bottom: 1rem;
+}
+#toggle img {
+  width: 70px;               /* or 24px */
+  height: 70px;
+  object-fit: contain;
+  border-radius: 50%;
+
+  transition: transform 0.2s ease;
+}
+#toggle:hover img {
+  transform: scale(1.1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.button-center {
+  display: flex;
+  justify-content: center;
+  width: 100%;  /* 🔥 centers horizontally */
+}
+#terminal {
+  background: #0f172a;
+  color: #e5e7eb;
+  font-family: "Courier New", monospace;
+  font-size: 1.4rem;
+  padding: 1.5rem;
+  border-radius: 0px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  min-height: 160px;
+  white-space: pre-wrap; 
+  margin-bottom: 0;
+}
 .main {
     color: black;
     font-size: 1.5rem;
@@ -67,7 +110,7 @@ body {
     width: 92%;          /* keeps it readable */
     margin: 2rem auto;         /* centers the card */
     padding-top: 1.6rem;
-    padding-bottom: 3rem;
+    padding-bottom: 0rem;
     
     border: 2px solid #e5e5e5; /* card border */
     border-radius: 16px;       /* rounded corners */
@@ -122,7 +165,7 @@ section {
   border-radius: 12px;
 }
 .images img:hover {
-  transform: translate(-4px, -1px);
+  transform: scale(1.03);
   box-shadow: 0 18px 40px rgba(0, 0, 0, 0.12);
 }
 
@@ -158,7 +201,11 @@ section {
   }
   .textblock {
     padding-top: 1.0rem;
-    padding-bottom: 2.5rem;
+    padding-bottom: 0rem;
+  }
+  #toggle img {
+    width: 50px;               /* or 24px */
+    height: 50px;
   }
   .section1,
   .sectionwork,
