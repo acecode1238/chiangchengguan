@@ -23,8 +23,8 @@ html, body {
 body {
   min-height: 100vh;
   background:
-    radial-gradient(circle at 20% 30%, #ffebeb, transparent 40%),
-    radial-gradient(circle at 80% 70%, #e0f8ff, transparent 40%),
+    radial-gradient(circle at 20% 30%, #cccccc, transparent 40%),
+    radial-gradient(circle at 80% 70%, #cbf3ff, transparent 40%),
     #fef5f5;
   background-size: 200% 200%;
   animation: layers 5s ease-in-out infinite;
@@ -117,9 +117,10 @@ body {
     width: 92%;
     background: rgba(255, 255, 255, 0.15);
     margin: 2rem auto;
+    background-filter: blur(12px);
     box-shadow:
-    inset 0 0 0 1px rgba(0,0,0,0.08),
-    inset 0 0 0 2px rgba(255,255,255,0.6),
+    
+    inset 0 0 0 2px rgba(225, 225, 225, 0.6),
     0 12px 30px rgba(0,0,0,0.08); /* card border */
     border-radius: 16px;
     overflow: hidden;
@@ -129,8 +130,7 @@ body {
 .cardblock:hover {
     transform: translateY(-4px);
     box-shadow:
-    inset 0 0 0 1px rgba(0,0,0,0.08),
-    inset 0 0 0 2px rgba(255,255,255,0.6),
+    inset 0 0 0 2px rgba(225,225,225,0.6),
     0 18px 40px rgba(0, 0, 0, 0.12);
 }
 .textblock {
@@ -168,13 +168,13 @@ body {
 }
 
 section {
-    padding: 3rem 3rem 0rem 2rem;
+    padding: 1rem 3rem 0rem 2rem;
 }
 .send:hover {
     background-color: #6cdd6c;
 }
 .certificates {
-    padding: 3rem 4rem 0rem 4rem;
+    padding: 1rem 4rem 0rem 4rem;
     font-weight: bold;
 }
 .skills {
@@ -214,7 +214,7 @@ footer {
 }
 @media (max-width: 768px) {
   section {
-    padding-left: 0.8rem;
+    padding-left: 0.6rem;
   }
   .languages li {
     font-size: 1.0rem;
@@ -235,10 +235,10 @@ footer {
     font-weight: 700;
   }
   .main {
-    font-size: 1.0rem;
+    font-size: 1.05rem;
   }
   .textblock {
-    padding-top: 1.0rem;
+    padding-top: 0.0rem;
     padding-bottom: 0rem;
   }
   #toggle img {
@@ -249,8 +249,8 @@ footer {
   display: block;
   margin: 0;
   min-height: 140px;
-  padding: 1.1rem;
-  font-size: 1.1rem;
+  padding: 1.0rem;
+  font-size: 1.0rem;
   }
   .button-center {
   display: flex;
@@ -259,8 +259,8 @@ footer {
   padding: 0rem 0rem 1.2rem 0rem;
   }
   .section2 {
-    padding-left: 2.6rem;
-    padding-right: 2.6rem;
+    padding-left: 2.0rem;
+    padding-right: 2.0rem;
     padding-bottom: 2rem;
   }
   .section1,
