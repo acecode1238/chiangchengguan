@@ -84,7 +84,7 @@ body {
 }
 .main {
     color: black;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 400;
     line-height: 1.5;
     margin: 0;
@@ -92,7 +92,7 @@ body {
 }
 
 .languages li {
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     display: inline;
 }
 
@@ -113,6 +113,26 @@ body {
     padding: 1rem 4rem 0rem 4rem;
     font-weight: bold;
 }
+.cardblock {
+    width: 92%;
+    background: rgba(255, 255, 255, 0.15);
+    margin: 2rem auto;
+    box-shadow:
+    inset 0 0 0 1px rgba(0,0,0,0.08),
+    inset 0 0 0 2px rgba(255,255,255,0.6),
+    0 12px 30px rgba(0,0,0,0.08); /* card border */
+    border-radius: 16px;
+    overflow: hidden;
+    background-clip: padding-box;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.cardblock:hover {
+    transform: translateY(-4px);
+    box-shadow:
+    inset 0 0 0 1px rgba(0,0,0,0.08),
+    inset 0 0 0 2px rgba(255,255,255,0.6),
+    0 18px 40px rgba(0, 0, 0, 0.12);
+}
 .textblock {
     width: 92%;          /* keeps it readable */
     margin: 2rem auto;         /* centers the card */
@@ -128,8 +148,6 @@ body {
     background-color: #ffffff;
     overflow: hidden;
     background-clip: padding-box;
-}
-.textblock {
     transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
@@ -196,10 +214,10 @@ footer {
 }
 @media (max-width: 768px) {
   section {
-    padding-left: 0.9rem;
+    padding-left: 0.8rem;
   }
   .languages li {
-    font-size: 1.1rem;
+    font-size: 1.0rem;
     display: inline;
   }
 
@@ -217,7 +235,7 @@ footer {
     font-weight: 700;
   }
   .main {
-    font-size: 1.1rem;
+    font-size: 1.0rem;
   }
   .textblock {
     padding-top: 1.0rem;
@@ -231,8 +249,8 @@ footer {
   display: block;
   margin: 0;
   min-height: 140px;
-  padding: 1.2rem;
-  font-size: 1.2rem;
+  padding: 1.1rem;
+  font-size: 1.1rem;
   }
   .button-center {
   display: flex;
@@ -241,8 +259,8 @@ footer {
   padding: 0rem 0rem 1.2rem 0rem;
   }
   .section2 {
-    padding-left: 2.8rem;
-    padding-right: 2.8rem;
+    padding-left: 2.6rem;
+    padding-right: 2.6rem;
     padding-bottom: 2rem;
   }
   .section1,
@@ -250,8 +268,8 @@ footer {
   .work1,
   .work2,
   .certificates {
-    padding-left: 2.8rem;
-    padding-right: 2.8rem;
+    padding-left: 2.6rem;
+    padding-right: 2.6rem;
   }
 }
 
